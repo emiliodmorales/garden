@@ -1,0 +1,4 @@
+#level-1 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
