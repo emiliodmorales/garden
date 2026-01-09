@@ -2,3 +2,12 @@
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
 }
+
+#level-2 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
+
+#level-2 .peas {
+  grid-column: 1/-1;
+}
