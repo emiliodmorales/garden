@@ -95,3 +95,8 @@
   grid-row: 3 / span 1;
   grid-column: 1 / span 3;
 }
+
+#level-7 {
+  display: grid;
+  grid-template: 1fr / repeat(5, minmax(5ch, 1fr));
+}
