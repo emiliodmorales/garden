@@ -28,3 +28,22 @@
 #level-3 .carrots {
   grid-column: 1 / span 3;
 }
+
+#level-4 {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
+#level-4 .peas {
+  grid-column: 1 / span 2;
+}
+
+#level-4 .onions {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+}
+
+#level-4 .carrots {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2;
+}
