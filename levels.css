@@ -9,5 +9,22 @@
 }
 
 #level-2 .peas {
-  grid-column: 1/-1;
+  grid-column: 1 / span 2;
+}
+
+#level-3 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#level-3 .onions {
+  grid-column: 2 / span 2;
+}
+
+#level-3 .tomatoes {
+  grid-column: 1 / span 2;
+}
+
+#level-3 .carrots {
+  grid-column: 1 / span 3;
 }
